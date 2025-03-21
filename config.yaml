@@ -1,0 +1,4 @@
+# config.yaml
+watch_paths:
+  - agents/
+  - core/

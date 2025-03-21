@@ -1,0 +1,16 @@
+## LLM Prompt Block – TaskMonitorAgent
+
+    🔸 Task: Full test with progress logger
+    🔸 File Changed: G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py
+
+    🔸 Diff Summary:
+    
+```diff
+    
+    ```
+
+
+    🔸 Instructions:
+    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.
+
+    ## END OF PROMPT
