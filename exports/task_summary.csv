@@ -1,0 +1,86 @@
+ID,Timestamp,Project,Description,File,Prompt Block,Diff Text,Status
+1,2025-03-21T16:31:01.298214,project_test,Manual test with project tag: Diff Tracker and Prompt Generator,G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py,,"## LLM Prompt Block – TaskMonitorAgent
+
+    🔸 Task: Manual test with project tag: Diff Tracker and Prompt Generator
+    🔸 File Changed: G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py
+
+    🔸 Diff Summary:
+    
+```diff
+    
+    ```
+
+
+    🔸 Instructions:
+    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.
+
+    ## END OF PROMPT
+",test-passed
+2,2025-03-21T16:35:52.830624,project_test,Manual test with project tag: Diff Tracker and Prompt Generator,G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py,,"## LLM Prompt Block – TaskMonitorAgent
+
+    🔸 Task: Manual test with project tag: Diff Tracker and Prompt Generator
+    🔸 File Changed: G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py
+
+    🔸 Diff Summary:
+    
+```diff
+    
+    ```
+
+
+    🔸 Instructions:
+    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.
+
+    ## END OF PROMPT
+",success
+3,2025-03-21T16:53:49.918173,project_test,"Full test flow: Diff, Prompt, Feedback, Status update",G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py,,"## LLM Prompt Block – TaskMonitorAgent
+
+    🔸 Task: Full test flow: Diff, Prompt, Feedback, Status update
+    🔸 File Changed: G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py
+
+    🔸 Diff Summary:
+    
+```diff
+    
+    ```
+
+
+    🔸 Instructions:
+    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.
+
+    ## END OF PROMPT
+",success
+4,2025-03-21T17:02:57.334933,project_test,Full test with progress logger,G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py,,"## LLM Prompt Block – TaskMonitorAgent
+
+    🔸 Task: Full test with progress logger
+    🔸 File Changed: G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py
+
+    🔸 Diff Summary:
+    
+```diff
+    
+    ```
+
+
+    🔸 Instructions:
+    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.
+
+    ## END OF PROMPT
+",success
+5,2025-03-21T17:10:36.439667,project_test,Full test with Git commit + optional push,G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py,,"## LLM Prompt Block – TaskMonitorAgent
+
+    🔸 Task: Full test with Git commit + optional push
+    🔸 File Changed: G:\My Drive\UPWORK KN\QUANT_TOOLS\TaskMonitorAgent\core\test_sample.py
+
+    🔸 Diff Summary:
+    
+```diff
+    
+    ```
+
+
+    🔸 Instructions:
+    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.
+
+    ## END OF PROMPT
+",success

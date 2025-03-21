@@ -1,10 +1,30 @@
 
-# human_feedback_prompt.py
+# human_feedback_prompt.py (Interactive CLI Version)
+import os
 import argparse
 from agent import memory_store, feedback_collector, progress_updater, git_handler
 
-def review_pending_tasks(project_tag=None, project_dir=".", agent_prefix="SA", push=False):
-    print(f"🔍 Reviewing pending tasks for project: {project_tag or 'ALL'}")
+try:
+    import questionary
+except ImportError:
+    print("Please install 'questionary' for interactive CLI: pip install questionary")
+    exit()
+
+def select_project_tag():
+    tag = questionary.text("🔖 Enter project tag (e.g., project_test):").ask()
+    return tag.strip()
+
+def select_agent_prefix():
+    return questionary.select("🤖 Select LLM Agent prefix:", choices=["SA", "EM", "LP"]).ask()
+
+def confirm_push():
+    return questionary.confirm("📤 Push to remote after commit?").ask()
+
+def select_git_project_dir():
+    return questionary.path("📁 Select Git project directory:").ask()
+
+def review_pending_tasks(project_tag, project_dir, agent_prefix, push=False):
+    print(f"🔍 Reviewing pending tasks for project: {project_tag}")
 
     records = memory_store.fetch_all_records(project_tag)
     pending_records = [r for r in records if r[7] == "pending"]
@@ -36,11 +56,11 @@ def review_pending_tasks(project_tag=None, project_dir=".", agent_prefix="SA", p
             git_handler.auto_commit(file_path, task_desc, agent_prefix, project_dir, push=push)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--project-tag", help="Filter review by project tag (optional)")
-    parser.add_argument("--project-dir", default=".", help="Path to Git project root")
-    parser.add_argument("--agent-prefix", default="SA", help="Prefix in Git commit message (e.g., SA, EM, LP)")
-    parser.add_argument("--push", action="store_true", help="Auto push commit to remote if set")
-    args = parser.parse_args()
+    print("🔧 Interactive Human Feedback Review Mode")
 
-    review_pending_tasks(args.project_tag, args.project_dir, args.agent_prefix, args.push)
+    project_tag = select_project_tag()
+    project_dir = select_git_project_dir()
+    agent_prefix = select_agent_prefix()
+    push = confirm_push()
+
+    review_pending_tasks(project_tag, project_dir, agent_prefix, push)

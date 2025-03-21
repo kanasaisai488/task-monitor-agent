@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-03-21T16:31:01.298214",
+    "project": "project_test",
+    "description": "Manual test with project tag: Diff Tracker and Prompt Generator",
+    "file": "G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py",
+    "prompt_block": "",
+    "diff_text": "## LLM Prompt Block \u2013 TaskMonitorAgent\n\n    \ud83d\udd38 Task: Manual test with project tag: Diff Tracker and Prompt Generator\n    \ud83d\udd38 File Changed: G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py\n\n    \ud83d\udd38 Diff Summary:\n    \n```diff\n    \n    ```\n\n\n    \ud83d\udd38 Instructions:\n    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.\n\n    ## END OF PROMPT\n",
+    "status": "test-passed"
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-03-21T16:35:52.830624",
+    "project": "project_test",
+    "description": "Manual test with project tag: Diff Tracker and Prompt Generator",
+    "file": "G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py",
+    "prompt_block": "",
+    "diff_text": "## LLM Prompt Block \u2013 TaskMonitorAgent\n\n    \ud83d\udd38 Task: Manual test with project tag: Diff Tracker and Prompt Generator\n    \ud83d\udd38 File Changed: G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py\n\n    \ud83d\udd38 Diff Summary:\n    \n```diff\n    \n    ```\n\n\n    \ud83d\udd38 Instructions:\n    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.\n\n    ## END OF PROMPT\n",
+    "status": "success"
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-03-21T16:53:49.918173",
+    "project": "project_test",
+    "description": "Full test flow: Diff, Prompt, Feedback, Status update",
+    "file": "G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py",
+    "prompt_block": "",
+    "diff_text": "## LLM Prompt Block \u2013 TaskMonitorAgent\n\n    \ud83d\udd38 Task: Full test flow: Diff, Prompt, Feedback, Status update\n    \ud83d\udd38 File Changed: G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py\n\n    \ud83d\udd38 Diff Summary:\n    \n```diff\n    \n    ```\n\n\n    \ud83d\udd38 Instructions:\n    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.\n\n    ## END OF PROMPT\n",
+    "status": "success"
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-03-21T17:02:57.334933",
+    "project": "project_test",
+    "description": "Full test with progress logger",
+    "file": "G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py",
+    "prompt_block": "",
+    "diff_text": "## LLM Prompt Block \u2013 TaskMonitorAgent\n\n    \ud83d\udd38 Task: Full test with progress logger\n    \ud83d\udd38 File Changed: G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py\n\n    \ud83d\udd38 Diff Summary:\n    \n```diff\n    \n    ```\n\n\n    \ud83d\udd38 Instructions:\n    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.\n\n    ## END OF PROMPT\n",
+    "status": "success"
+  },
+  {
+    "id": 5,
+    "timestamp": "2025-03-21T17:10:36.439667",
+    "project": "project_test",
+    "description": "Full test with Git commit + optional push",
+    "file": "G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py",
+    "prompt_block": "",
+    "diff_text": "## LLM Prompt Block \u2013 TaskMonitorAgent\n\n    \ud83d\udd38 Task: Full test with Git commit + optional push\n    \ud83d\udd38 File Changed: G:\\My Drive\\UPWORK KN\\QUANT_TOOLS\\TaskMonitorAgent\\core\\test_sample.py\n\n    \ud83d\udd38 Diff Summary:\n    \n```diff\n    \n    ```\n\n\n    \ud83d\udd38 Instructions:\n    Please analyze the diff and suggest improvements, refactoring, or test cases if needed.\n\n    ## END OF PROMPT\n",
+    "status": "success"
+  }
+]
